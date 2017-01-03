@@ -1,4 +1,16 @@
 {
     "gitbook": ">=3.2.1",
-    "title": "爱吃吧在线帮助"
+    "title": "爱吃吧在线帮助",
+    "description": "爱吃吧oss系统帮助文档",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "Home": "http://localhost:4000/"
+        }
+    },
+    "plugins": [
+        "search",
+        "-sharing",
+        "splitter"
+    ]
 }
